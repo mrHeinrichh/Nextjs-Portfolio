@@ -109,15 +109,16 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/me.jpg" width={500} height={500} />
+      <Image src="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/me.jpg" width={500} height={500} alt="John Heinrich Fabros" />
+
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hi there! I'm John Heinrich Fabros, a hybrid creative based in Taguig City.I bridge the gap between the artistic and technical worlds, working as both a Multimedia Artist and a Software Engineer.
-On the artistic side, I bring stories and ideas to life through videography, video editing, photography, and graphic design. I also have experience managing social media content.
-In my software engineering role, I leverage my technical skills in front-end and back-end development, along with database management, to build functional and engaging applications.
-This unique blend of talents allows me to approach projects from a well-rounded perspective, infusing creativity with technical know-how.
-I'm always looking for opportunities to push boundaries and create innovative experiences. Feel free to reach out if you have any projects that align with my skills!
+          Hi there! I&apos;m John Heinrich Fabros, a hybrid creative based in Taguig City. I bridge the gap between the artistic and technical worlds, working as both a Multimedia Artist and a Software Engineer.
+  On the artistic side, I bring stories and ideas to life through videography, video editing, photography, and graphic design. I also have experience managing social media content.
+  In my software engineering role, I leverage my technical skills in front-end and back-end development, along with database management, to build functional and engaging applications.
+  This unique blend of talents allows me to approach projects from a well-rounded perspective, infusing creativity with technical know-how.
+
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
