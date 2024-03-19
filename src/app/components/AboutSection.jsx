@@ -5,36 +5,92 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Skills",
+    title: "End-User Skills (Front-end)",
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Tailwind</li>
+        <li>Bootstrap</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>ReactJS</li>
+        <li>NextJS</li>
+        <li>Flutter</li>
+        <li>React Native</li>
       </ul>
     ),
   },
   {
-    title: "Education",
-    id: "education",
+    title: "Backend",
+    id: "backend",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Firebase</li>
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>Nodejs</li>
+        <li>C#</li>
+        <li>Python</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Apimanagement",
+    id: "apimanagement",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>SwaggerJS</li>
+        <li>Postman</li>
+        <li>Insomia</li>
+        <li>Paw</li>
+        <li>Restlet Studio</li>
+        <li>SoapUI</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Database",
+    id: "database",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>MySQL</li>
+        <li>Sqlite</li>
+        <li>MongoDB</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Editing",
+    id: "editing",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Adobe Photoshop</li>
+        <li>Adobe Premiere Pro</li>
+        <li>Adobe After Effects</li>
+        <li>Adobe Lightroom</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe XD</li>
+        <li>Figma</li>
+        <li>Adobe Audition</li>
+        <li>Final Cut Pro</li>
+        <li>DaVinci Resolve</li>
+        <li>Canva</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Administrative",
+    id: "administrative",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Microsoft Word</li>
+        <li>Microsoft Excel</li>
+        <li>Microsoft Access</li>
+        <li>Microsoft Powerpoint</li>
+        <li>Google Docs</li>
+        <li>Google Sheets</li>
+        <li>Google Slides</li>
       </ul>
     ),
   },
@@ -53,16 +109,15 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/me.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Hi there! I'm John Heinrich Fabros, a hybrid creative based in Taguig City.I bridge the gap between the artistic and technical worlds, working as both a Multimedia Artist and a Software Engineer.
+On the artistic side, I bring stories and ideas to life through videography, video editing, photography, and graphic design. I also have experience managing social media content.
+In my software engineering role, I leverage my technical skills in front-end and back-end development, along with database management, to build functional and engaging applications.
+This unique blend of talents allows me to approach projects from a well-rounded perspective, infusing creativity with technical know-how.
+I'm always looking for opportunities to push boundaries and create innovative experiences. Feel free to reach out if you have any projects that align with my skills!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -70,21 +125,42 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+             Front End{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
+              selectTab={() => handleTabChange("backend")}
+              active={tab === "backend"}
             >
               {" "}
-              Education{" "}
+              Back End{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("apimanagement")}
+              active={tab === "apimanagement"}
             >
               {" "}
-              Certifications{" "}
+              Api Management{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("database")}
+              active={tab === "database"}
+            >
+              {" "}
+              Database{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("editing")}
+              active={tab === "editing"}
+            >
+              {" "}
+              Editing Tools{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("administrative")}
+              active={tab === "administrative"}
+            >
+              {" "}
+              Administrative Tools{" "}
             </TabButton>
           </div>
           <div className="mt-8">
