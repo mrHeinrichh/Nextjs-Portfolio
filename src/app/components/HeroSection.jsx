@@ -49,7 +49,7 @@ const HeroSection = () => {
     Contact Me
   </Link>
   <Link
-    href="/"
+    href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/3435af0495dcfbe9826426dbb7385c3ddf013987/pdf/RESUME.pdf"
     className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white mt-3"
   >
     <span className="block bg-[#121212] hover:bg-red-700 rounded-full px-5 py-2">
