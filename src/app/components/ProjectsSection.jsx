@@ -140,6 +140,15 @@ const projectsData = [
     gitUrl: "https://github.com/mrHeinrichh/ITOS322-T-Final-Project",
     previewUrl: "https://www.figma.com/file/NjhslTVd9PzzS0bSkJEhz0/CLONED-YAHU%2FWALLET?type=design&node-id=1-44043&mode=design&t=6ZEh9bIYJUOikxnx-0",
   },
+  {
+    id: 15,
+    title: "2023 Calendar Using Laravel PHP",
+    description: "Just a simple calendar using HTML Bootstrap and Laravel PHP",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-16.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mrHeinrichh/2023-Calendar-Html-Css",
+    previewUrl: "https://mrheinrichh.github.io/2023-Calendar-Html-Css/",
+  },
 ];
 
 const ProjectsSection = () => {
