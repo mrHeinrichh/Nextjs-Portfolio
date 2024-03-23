@@ -123,7 +123,7 @@ const projectsData = [
     previewUrl: "https://www.figma.com/file/EfeWbbjxdSgTd0pq4yGg0K/Redframe-UI?type=design&node-id=410-8765&mode=design&t=6ZEh9bIYJUOikxnx-0",
   },
   {
-    id: 13,
+    id: 14,
     title: "Yahu Delivery Application",
     description: "Fast delivery app for riders, all with a single tap. Designed using Figma and powered by Flutter, Yahu offers a seamless experience for users and riders alike. Real-time tracking ensures transparency and safety. Say hello to the future of delivery with Yahu.",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-14.jpg",
@@ -132,7 +132,7 @@ const projectsData = [
     previewUrl: "https://www.figma.com/file/NjhslTVd9PzzS0bSkJEhz0/CLONED-YAHU%2FWALLET?type=design&node-id=1-44043&mode=design&t=6ZEh9bIYJUOikxnx-0",
   },
   {
-    id: 14,
+    id: 15,
     title: "ITOS322-T-Final-Project",
     description: "A Website about my ITOS322-T-Final-Project submitted to Professor Rico Santos using HTML CSS and Tailwind",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-15.jpg",
@@ -141,13 +141,59 @@ const projectsData = [
     previewUrl: "https://www.figma.com/file/NjhslTVd9PzzS0bSkJEhz0/CLONED-YAHU%2FWALLET?type=design&node-id=1-44043&mode=design&t=6ZEh9bIYJUOikxnx-0",
   },
   {
-    id: 15,
+    id: 16,
     title: "2023 Calendar Using Laravel PHP",
     description: "Just a simple calendar using HTML Bootstrap and Laravel PHP",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-16.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mrHeinrichh/2023-Calendar-Html-Css",
     previewUrl: "https://mrheinrichh.github.io/2023-Calendar-Html-Css/",
+  },
+  {
+    id: 17,
+    title: "Promdifarm Infographic Video",
+    description: "An Agri-Tech Company that aims to help farmers by providing them a platform to sell their products and increase their profits. ",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-17.jpg",
+    tag: ["All", "Video Contents"],
+    gitUrl: "",
+    previewUrl: "https://www.youtube.com/watch?v=ZlL4ewf8PxI&t=26s/",
+  },
+  {
+    id: 18,
+    title: "Promdifarm Farmer Testimonial Video",
+    description: "Mario Tejada a tomato farmer from Bibiclat, Aliaga, Nueva Ecija explains the true problem of why farmers are not earning enough.",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-18.jpg",
+    tag: ["All", "Video Contents"],
+    gitUrl: "",
+    previewUrl: "https://www.youtube.com/watch?v=m_OEehO6H5w",
+  },
+
+  {
+    id: 19,
+    title: "Barangay South Signal Village Reporting And Information System",
+    description: "Research Project in System Integration and Architecture 2 (lec/lab) using HTML CSS and PHP",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-19.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mrHeinrichh/ITNET324-New-Research-Project-?fbclid=IwAR2dbqdH4CBUqKBP1k8woGsNujHcYdGAl2xmlYIdnUokExIpQwK3ZFj9a4Q",
+    previewUrl: "https://github.com/mrHeinrichh/ITNET324-New-Research-Project-?fbclid=IwAR2dbqdH4CBUqKBP1k8woGsNujHcYdGAl2xmlYIdnUokExIpQwK3ZFj9a4Q",
+  },
+  {
+    id: 20,
+    title: " ACME PetClinic Website",
+    description: "A full service companion animal veterinary clinic located in Taguig City using HTML CSS and PHP",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-20.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mrHeinrichh/acme-php-website",
+    previewUrl: "https://github.com/mrHeinrichh/acme-php-website",
+  },
+  {
+    id: 21,
+    title: "TUP-T Contact Tracing System",
+    description: "TUP-T Contact Tracing System using Visual Basic with Crystal Reports and Barcode Scanning Feauture",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-21.jpg",
+    tag: ["All", "Desktop"],
+    gitUrl: "https://github.com/mrHeinrichh/Contact-Tracing-Visual-Basic",
+    previewUrl: "https://github.com/mrHeinrichh/Contact-Tracing-Visual-Basic",
   },
 ];
 
@@ -203,7 +249,7 @@ const ProjectsSection = () => {
           <ProjectTag
           onClick={handleTagChange}
           name="Video Contents"
-          isSelected={tag === "Video"}
+          isSelected={tag === "Video Contents"}
         />
           <ProjectTag
           onClick={handleTagChange}
