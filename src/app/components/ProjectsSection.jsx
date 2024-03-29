@@ -150,6 +150,15 @@ const projectsData = [
     previewUrl: "https://mrheinrichh.github.io/2023-Calendar-Html-Css/",
   },
   {
+    id: 16,
+    title: "Mina-Swep-Array-Mine-Game",
+    description: "ArraySweeper is an engaging PHP game where two players strategically place and guess array index addresses, avoiding hidden mines set by their opponent. With limited attempts and alternating turns, it's a thrilling test of strategy and luck",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-37.jpg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/mrHeinrichh/Mina-Swep-Array-Mine-Game",
+    previewUrl: "https://github.com/mrHeinrichh/Mina-Swep-Array-Mine-Game",
+  },
+  {
     id: 17,
     title: "Promdifarm Infographic Video",
     description: "An Agri-Tech Company that aims to help farmers by providing them a platform to sell their products and increase their profits. ",
