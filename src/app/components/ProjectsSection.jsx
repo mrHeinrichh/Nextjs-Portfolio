@@ -10,7 +10,7 @@ const projectsData = [
     title: "LPG eCommerce Customer/Retailer Website & Application",
     description: "JE Moral LPG Application for customer and retailer interface with live location tracking for delivery and order management.",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-1.jpg",
-    tag: ["All", "Mobile",  "Web"],
+    tag: ["All", "Mobile", "Web"],
     gitUrl: "https://github.com/mrHeinrichh?tab=repositories",
     previewUrl: "https://mrheinrichh.github.io/web-mobile-download-interface/",
   },
@@ -55,7 +55,7 @@ const projectsData = [
     title: "BAUCHA Crypto Voucher Platform",
     description: "WEB & UI/UX DESIGN - Crypto Voucher Platform used for WEB3 Festival Hackathon 2022",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-6.jpg",
-    tag: ["All", "Web" , "UI/UX"],
+    tag: ["All", "Web", "UI/UX"],
     gitUrl: "https://www.figma.com/file/GuV6hEJOj63s1QcWl8GWZr/crypto-8?type=design&mode=design&t=yRKVrXEwK9fbE7W9-0",
     previewUrl: "https://www.canva.com/design/DAFRxkdoBiE/mshGQcjVXBg3F0Woxsalyg/edit",
   },
@@ -64,7 +64,7 @@ const projectsData = [
     title: "Promdifarm Rider Mobile Application",
     description: "Mobile & UI/UX DESIGN Rider Application for Promdifarm Delivery Service",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-7.jpg",
-    tag: ["All", "Mobile" , "UI/UX"],
+    tag: ["All", "Mobile", "UI/UX"],
     gitUrl: "https://github.com/mrHeinrichh/Flutter-Promdifarm-RiderAPP",
     previewUrl: "https://www.figma.com/proto/uE3O2zrcDGhedyOgjC2pTI/CLONED-PROMDIFARM?node-id=1-29639&starting-point-node-id=1%3A29579",
   },
@@ -73,7 +73,7 @@ const projectsData = [
     title: "Promdifarm Customer/Farmer Mobile eCommerce Application",
     description: "Mobile & UI/UX DESIGN Customer/Farmer eCommerce Application for Promdifarm Ordering Transactions",
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-8.jpg",
-    tag: ["All", "Mobile" , "UI/UX"],
+    tag: ["All", "Mobile", "UI/UX"],
     gitUrl: "https://github.com/mrHeinrichh/Flutter-Promdifarm-RiderAPP",
     previewUrl: "https://www.figma.com/proto/uE3O2zrcDGhedyOgjC2pTI/CLONED-PROMDIFARM?node-id=1-29639&starting-point-node-id=1%3A29579",
   },
@@ -212,6 +212,15 @@ const projectsData = [
     tag: ["All", "Video Contents"],
     gitUrl: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fheinrich_8s7xnd_onmicrosoft_com%2FDocuments%2FMY%20PORTFOLIO%20NEW%20MARCH%2023%202024%2FPortfolios%2FVideo%20samples%2FEnergie1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview",
     previewUrl: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fheinrich_8s7xnd_onmicrosoft_com%2FDocuments%2FMY%20PORTFOLIO%20NEW%20MARCH%2023%202024%2FPortfolios%2FVideo%20samples%2FEnergie1%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview",
+  },
+  {
+    id: 26,
+    title: 'Video Same Day Edit | UST Post Graduation Doctors of OBGYN ',
+    description: "Same Day Video Edit of POST GRADUATION COURSE In University of Santo Tomas for Doctors of OBGYN July 3-5 2024",
+    image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/ProjectSDE.jpg",
+    tag: ["All", "Video Contents"],
+    gitUrl: "https://www.facebook.com/mrHeinrichhh/videos/355978714202584",
+    previewUrl: "https://www.facebook.com/mrHeinrichhh/videos/355978714202584",
   },
   {
     id: 27,
@@ -391,10 +400,10 @@ const projectsData = [
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-25.jpg",
     tag: ["All", "Video Contents"],
     gitUrl: "https://www.youtube.com/watch?v=IPvIxVS75vQ",
-  previewUrl: "https://www.youtube.com/watch?v=IPvIxVS75vQ",
+    previewUrl: "https://www.youtube.com/watch?v=IPvIxVS75vQ",
   },
-  
-  
+
+
   {
     id: 25,
     title: "Penny Wise: 10 Money Mistakes Millennials Make",
@@ -402,7 +411,7 @@ const projectsData = [
     image: "https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/projects/project-26.jpg",
     tag: ["All", "Video Contents"],
     gitUrl: "https://www.youtube.com/watch?v=gtvtjnH_r4I&t=318s",
-  previewUrl: "https://www.youtube.com/watch?v=gtvtjnH_r4I&t=318s",
+    previewUrl: "https://www.youtube.com/watch?v=gtvtjnH_r4I&t=318s",
   },
   {
     id: 36,
@@ -599,7 +608,7 @@ const projectsData = [
     image: "blob:https://8s7xnd-my.sharepoint.com/a545fd0f-d697-4988-a23d-85fe9711eb4f",
     tag: ["All", "Graphic Designs"],
     gitUrl: "",
-    previewUrl:  "blob:https://8s7xnd-my.sharepoint.com/a545fd0f-d697-4988-a23d-85fe9711eb4f",
+    previewUrl: "blob:https://8s7xnd-my.sharepoint.com/a545fd0f-d697-4988-a23d-85fe9711eb4f",
   }, {
     id: 36,
     title: 'PromdiFarm Tshirt Design Template',
@@ -642,7 +651,7 @@ const projectsData = [
     image: 'https://southeastasia1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2F8s7xnd-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!VK9a0SXw-0mDxiEnBLhhh0fua3seuNNEpaksx5sUeAFmN8lN1By0SprzojmoZ53d%2Fitems%2F01BNVF6KCANUKPQJCPCBA2PCYJCGGGYSPN%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvOHM3eG5kLW15LnNoYXJlcG9pbnQuY29tQGU4ZTMyYzkxLWQ3OTctNGQzYy05OTk1LTgxNDQ4NDdlMGZlZSIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE3MTEyOTI0MDAiLCJleHAiOiIxNzExMzE0MDAwIiwiZW5kcG9pbnR1cmwiOiI3aDJKVGViajVHczlWV3d4WDRqLzR1bU40YS9TT3RjMUlaMHlGeE9TKy9jPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE2IiwiaXNsb29wYmFjayI6IlRydWUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWkRFMVlXRm1OVFF0WmpBeU5TMDBPV1ppTFRnell6WXRNakV5TnpBMFlqZzJNVGczIiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxoZWlucmljaEA4czd4bmQub25taWNyb3NvZnQuY29tIiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDJiYWY2ZWRlYkBsaXZlLmNvbSIsInNpZCI6IjlkYjIxODYyLWU3NDgtNDg4Mi1iZjgwLWNmYTViMWJhNjk4NSIsInR0IjoiMCIsImlwYWRkciI6IjEyMi4yLjc5LjI0NiIsInNuaWQiOiI2Iiwic3RwIjoidCJ9.mbKx17rA-A6AL5q6OUPCztnYJfmKvewZlRejMDZStEw&cTag="c%3A%7BF8146D40-4F24-4110-A78B-09118C6C49ED%7D%2C1"&encodeFailures=1&width=512&height=512&srcWidth=512&srcHeight=512',
     tag: ["All", "Graphic Designs"],
     gitUrl: "",
-    previewUrl:  'https://southeastasia1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2F8s7xnd-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!VK9a0SXw-0mDxiEnBLhhh0fua3seuNNEpaksx5sUeAFmN8lN1By0SprzojmoZ53d%2Fitems%2F01BNVF6KCANUKPQJCPCBA2PCYJCGGGYSPN%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvOHM3eG5kLW15LnNoYXJlcG9pbnQuY29tQGU4ZTMyYzkxLWQ3OTctNGQzYy05OTk1LTgxNDQ4NDdlMGZlZSIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE3MTEyOTI0MDAiLCJleHAiOiIxNzExMzE0MDAwIiwiZW5kcG9pbnR1cmwiOiI3aDJKVGViajVHczlWV3d4WDRqLzR1bU40YS9TT3RjMUlaMHlGeE9TKy9jPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE2IiwiaXNsb29wYmFjayI6IlRydWUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWkRFMVlXRm1OVFF0WmpBeU5TMDBPV1ppTFRnell6WXRNakV5TnpBMFlqZzJNVGczIiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxoZWlucmljaEA4czd4bmQub25taWNyb3NvZnQuY29tIiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDJiYWY2ZWRlYkBsaXZlLmNvbSIsInNpZCI6IjlkYjIxODYyLWU3NDgtNDg4Mi1iZjgwLWNmYTViMWJhNjk4NSIsInR0IjoiMCIsImlwYWRkciI6IjEyMi4yLjc5LjI0NiIsInNuaWQiOiI2Iiwic3RwIjoidCJ9.mbKx17rA-A6AL5q6OUPCztnYJfmKvewZlRejMDZStEw&cTag="c%3A%7BF8146D40-4F24-4110-A78B-09118C6C49ED%7D%2C1"&encodeFailures=1&width=512&height=512&srcWidth=512&srcHeight=512',
+    previewUrl: 'https://southeastasia1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=jpg&cs=fFNQTw&docid=https%3A%2F%2F8s7xnd-my.sharepoint.com%3A443%2F_api%2Fv2.0%2Fdrives%2Fb!VK9a0SXw-0mDxiEnBLhhh0fua3seuNNEpaksx5sUeAFmN8lN1By0SprzojmoZ53d%2Fitems%2F01BNVF6KCANUKPQJCPCBA2PCYJCGGGYSPN%3Fversion%3DPublished&access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvOHM3eG5kLW15LnNoYXJlcG9pbnQuY29tQGU4ZTMyYzkxLWQ3OTctNGQzYy05OTk1LTgxNDQ4NDdlMGZlZSIsImlzcyI6IjAwMDAwMDAzLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMCIsIm5iZiI6IjE3MTEyOTI0MDAiLCJleHAiOiIxNzExMzE0MDAwIiwiZW5kcG9pbnR1cmwiOiI3aDJKVGViajVHczlWV3d4WDRqLzR1bU40YS9TT3RjMUlaMHlGeE9TKy9jPSIsImVuZHBvaW50dXJsTGVuZ3RoIjoiMTE2IiwiaXNsb29wYmFjayI6IlRydWUiLCJ2ZXIiOiJoYXNoZWRwcm9vZnRva2VuIiwic2l0ZWlkIjoiWkRFMVlXRm1OVFF0WmpBeU5TMDBPV1ppTFRnell6WXRNakV5TnpBMFlqZzJNVGczIiwic2lnbmluX3N0YXRlIjoiW1wia21zaVwiXSIsIm5hbWVpZCI6IjAjLmZ8bWVtYmVyc2hpcHxoZWlucmljaEA4czd4bmQub25taWNyb3NvZnQuY29tIiwibmlpIjoibWljcm9zb2Z0LnNoYXJlcG9pbnQiLCJpc3VzZXIiOiJ0cnVlIiwiY2FjaGVrZXkiOiIwaC5mfG1lbWJlcnNoaXB8MTAwMzIwMDJiYWY2ZWRlYkBsaXZlLmNvbSIsInNpZCI6IjlkYjIxODYyLWU3NDgtNDg4Mi1iZjgwLWNmYTViMWJhNjk4NSIsInR0IjoiMCIsImlwYWRkciI6IjEyMi4yLjc5LjI0NiIsInNuaWQiOiI2Iiwic3RwIjoidCJ9.mbKx17rA-A6AL5q6OUPCztnYJfmKvewZlRejMDZStEw&cTag="c%3A%7BF8146D40-4F24-4110-A78B-09118C6C49ED%7D%2C1"&encodeFailures=1&width=512&height=512&srcWidth=512&srcHeight=512',
   },
 ];
 
@@ -685,30 +694,30 @@ const ProjectsSection = () => {
           name="Mobile"
           isSelected={tag === "Mobile"}
         />
-         <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Desktop"
           isSelected={tag === "Desktop"}
         />
-             <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="UI/UX"
           isSelected={tag === "UI/UX"}
         />
-          <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Video Contents"
           isSelected={tag === "Video Contents"}
         />
-          <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Graphic Designs"
           isSelected={tag === "Graphic Designs"}
         />
-            <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Photography / Videography"
-        
+
           link="https://www.facebook.com/mrHeinrichhh"
         />
       </div>
