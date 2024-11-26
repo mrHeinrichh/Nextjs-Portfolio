@@ -18,7 +18,7 @@ const achievementsList = [
   {
     prefix: "~",
     metric: "Age",
-    value: "21",
+    value: "22",
   },
   {
     metric: "Multimedia Years of Experience",
@@ -26,7 +26,7 @@ const achievementsList = [
   },
   {
     metric: "Programming Years of Experience",
-    value: "3",
+    value: "4",
   },
 ];
 

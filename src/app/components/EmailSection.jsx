@@ -1,41 +1,44 @@
-"use client";
+'use client';  // Ensure this line is at the top of your component
+
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
+import { init, send } from "emailjs-com";  // Import EmailJS SDK
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
+  // Initialize EmailJS with your User ID from environment variables
+  init(process.env.NEXT_PUBLIC_EMAILJS_USER_ID);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     const data = {
-      email: e.target.email.value,
+      from_name: e.target.email.value, // Sender's email
       subject: e.target.subject.value,
       message: e.target.message.value,
     };
-    const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
 
-    // Form the request for sending data to the server.
-    const options = {
-      // The method is POST because we are sending data.
-      method: "POST",
-      // Tell the server we're sending JSON.
-      headers: {
-        "Content-Type": "application/json",
-      },
-      // Body of the request is the JSON data we created above.
-      body: JSONdata,
-    };
+    try {
+      // Send the email using the send method
+      const response = await send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, // Service ID
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, // Template ID
+        data // Email data
+      );
 
-    const response = await fetch(endpoint, options);
-    const resData = await response.json();
-
-    if (response.status === 200) {
-      console.log("Message sent.");
-      setEmailSubmitted(true);
+      // Check if the response is successful
+      if (response.status === 200) {
+        setEmailSubmitted(true);
+        console.log("Message sent successfully.");
+      } else {
+        console.error("Error sending email:", response);
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
     }
   };
 
@@ -50,16 +53,15 @@ const EmailSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/mrHeinrichh">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/john-heinrich-fabros-636502220/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
         </div>
@@ -84,7 +86,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="heinrich@google.com"
+                placeholder="your@email.com"
               />
             </div>
             <div className="mb-6">

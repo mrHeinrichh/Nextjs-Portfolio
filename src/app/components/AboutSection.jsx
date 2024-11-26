@@ -91,6 +91,7 @@ const TAB_DATA = [
         <li>Google Docs</li>
         <li>Google Sheets</li>
         <li>Google Slides</li>
+        <li>Canva</li>
       </ul>
     ),
   },
@@ -109,16 +110,17 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <Image src="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/main/image/me.jpg" width={500} height={500} alt="John Heinrich Fabros" />
+      <Image src="/about_photo.jpg" width={500} height={500} alt="John Heinrich Fabros" />
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hi there! I&apos;m John Heinrich Fabros, a hybrid creative based in Taguig City. I bridge the gap between the artistic and technical worlds, working as both a Multimedia Artist and a Software Engineer.
-  On the artistic side, I bring stories and ideas to life through videography, video editing, photography, and graphic design. I also have experience managing social media content.
-  In my software engineering role, I leverage my technical skills in front-end and back-end development, along with database management, to build functional and engaging applications.
-  This unique blend of talents allows me to approach projects from a well-rounded perspective, infusing creativity with technical know-how.
+          Hi, I’m <b>John Heinrich Fabros</b>, a proud graduate of the <b>Technological University of the Philippines</b> with a <b>Bachelor of Science in Information Technology (BSIT)</b>. With a solid foundation from my 4-year college degree, I’ve built a career as both a Software Engineer and Multimedia Artist.
+<br />
+<br />
+As a Full-Stack Developer, I bring expertise in front-end, back-end, database management, mobile development, and UI/UX design. I also have experience with Adobe products and other editing software, combining my technical skills with a passion for creativity.
 
+This unique blend of abilities enables me to deliver well-rounded solutions—whether it’s crafting functional and engaging applications or producing compelling visuals.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

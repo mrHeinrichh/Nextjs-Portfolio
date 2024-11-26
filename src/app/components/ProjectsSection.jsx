@@ -426,7 +426,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Fitness ARHTRO GUARD DRINK POWDER',
     description: "Product Advertisement for Fat Daddy Fitness ARHTRO GUARD DRINK POWDER products.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/Product%205_1.gif",
+    image: "blob:https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/EV12BqcynVdGj1jm6O3ytm4BEERDLaL7j3eyfKkhS5kuQQ?e=rbihFp",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -435,7 +435,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Nutrition Alpa Pump Ultimate Pump Booster',
     description: "Product Advertisement for Fat Daddy Nutrition Alpa Pump Ultimate Pump Booster products.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/Product6%20(1).gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/EWLMjYVoouVDmedrhPlkaQUBODBpZK_szPYq8voS3sFbww?e=KpKXfc",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -444,7 +444,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Fitness SCITEC Nutrition PRO LINE',
     description: "Product Advertisement for Fat Daddy Fitness SCITEC Nutrition PRO LINE products.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/7%20(2).gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/EZN4wm_B1UZKp12h7IvuFncB9fAot-oktw3MnQx0H-QP2A?e=Ve4BkT",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -453,7 +453,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Fitness 11 BRAVO',
     description: "Product Advertisement for Fat Daddy Fitness 11 BRAVO products.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/Product2.gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/EZ4eNJTdf-1Js9WIfx14g4wBQ9sPrUbd_jFcwhfn0adlEg?e=SXQkJf",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -462,7 +462,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Fitness Reflex Nutrition',
     description: "Product Advertisement for Reflex Nutrition products.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/prod4.gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/Ee0vnqxinAdEm3BvO18s2DYBzhedCMVMFURfEZSn8n_g4g?e=moI1Gt",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -472,7 +472,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Fitness suppelement Premium Mass gainer',
     description: "Product Advertisement for Fat Daddy Fitness suppelement Premium Mass gainer.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/prod3.gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/EQdoRJEKSehImYH6HwD0kB8BXi9xViOGQ9_x4vZx3mLeDA?e=2nH0VZ",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -490,7 +490,7 @@ const projectsData = [
     id: 36,
     title: 'Chai D Out Fat Daddy Nutrition',
     description: "Product Advertisement for Fat Daddy Nutrition products.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/Nested%20Sequence%2005.gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/Edzq36Ep2lJCgMYj4dy-YDsBK1cAIGzikaVZFtoRbCYKJQ?e=SkA7tF",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -499,7 +499,7 @@ const projectsData = [
     id: 36,
     title: 'Fat Daddy Fitness Arhtro Guard Drink Powder',
     description: "Product Advertisement for Arhtro Guard Drink Powder.",
-    image: "https://8s7xnd-my.sharepoint.com/personal/heinrich_8s7xnd_onmicrosoft_com/Documents/MY%20PORTFOLIO%20NEW%20MARCH%2023%202024/Portfolios/Graphic%20samples/Product%205_1.gif",
+    image: "https://8s7xnd-my.sharepoint.com/:i:/g/personal/heinrich_8s7xnd_onmicrosoft_com/EWqPWaT9w6lErF7tgCOyHC4B6-f-KzTr010_MUZhY-mteA?e=qTkjBF",
     tag: ["All", "Graphic Designs"],
     gitUrl: "https://fatdaddyfitness.co.uk",
     previewUrl: "https://fatdaddyfitness.co.uk",
@@ -675,10 +675,10 @@ const ProjectsSection = () => {
 
   return (
     <section id="projects">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12 md:col-4">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -721,7 +721,7 @@ const ProjectsSection = () => {
           link="https://www.facebook.com/mrHeinrichhh"
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
