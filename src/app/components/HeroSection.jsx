@@ -21,13 +21,13 @@ const Modal = ({ isOpen, onClose }) => {
         <h3 className="text-white mb-4 text-xl">Choose a CV to Download</h3>
         <div className="space-y-3">
           <Link
-            href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/0df7c05f0d803977c7b90242eb4260903c3f02f1/pdf/ITCV.pdf"
+            href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/refs/heads/main/pdf/ITCV.pdf"
             className="block w-full py-2 px-5 rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white text-center"
           >
             Download IT CV
           </Link>
           <Link
-            href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/0df7c05f0d803977c7b90242eb4260903c3f02f1/pdf/MultiMediaCV.pdf"
+            href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/refs/heads/main/pdf/MultiMediaCV.pdf"
             className="block w-full py-2 px-5 rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white text-center"
           >
             Download MultiMedia CV
