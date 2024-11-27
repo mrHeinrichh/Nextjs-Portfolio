@@ -1,11 +1,60 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+// Modal Component
+const Modal = ({ isOpen, onClose }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div
+      className="fixed inset-0 bg-gray-500 bg-opacity-50 flex justify-center items-center z-20"
+      onClick={onClose}
+    >
+      <div
+        className="bg-[#121212] p-6 rounded-lg w-96 relative"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h3 className="text-white mb-4 text-xl">Choose a CV to Download</h3>
+        <div className="space-y-3">
+          <Link
+            href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/0df7c05f0d803977c7b90242eb4260903c3f02f1/pdf/ITCV.pdf"
+            className="block w-full py-2 px-5 rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white text-center"
+          >
+            Download IT CV
+          </Link>
+          <Link
+            href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/0df7c05f0d803977c7b90242eb4260903c3f02f1/pdf/MultiMediaCV.pdf"
+            className="block w-full py-2 px-5 rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white text-center"
+          >
+            Download MultiMedia CV
+          </Link>
+        </div>
+        <button
+          className="absolute top-2 right-2 text-white"
+          onClick={onClose}
+        >
+          X
+        </button>
+      </div>
+    </div>
+  );
+};
+
 const HeroSection = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleDownloadClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -16,10 +65,7 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-red-500">
-              Hello, I&apos;m{" "}
-            </span>
-
+            <span className="text-red-500">Hello, I&apos;m </span>
             <br />
             <TypeAnimation
               sequence={[
@@ -34,38 +80,35 @@ const HeroSection = () => {
               wrapper="span"
               speed={30}
               repeat={Infinity}
-              style={{ fontSize: "70px" }} // Adjust the font size as needed
+              style={{ fontSize: "70px" }}
             />
-
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Taguig City-based creative with a dual passion for Multimedia Arts and Software Engineering. I bring ideas to life visually and build functional applications, blurring the lines between artistry and technical expertise.
+            Taguig City-based creative with a dual passion for Multimedia Arts
+            and Software Engineering. I bring ideas to life visually and build
+            functional applications, blurring the lines between artistry and
+            technical expertise.
           </p>
           <div>
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white"
+          <button
+  onClick={() => {
+    document.getElementById("contact").scrollIntoView({
+      behavior: "smooth",
+    });
+  }}
+  className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white"
+>
+  Contact Me
+</button>
+            <button
+              onClick={handleDownloadClick}
+               className="mr-3 px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white mt-3"
             >
-              Contact Me
-            </Link>
-            <Link
-              href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/0df7c05f0d803977c7b90242eb4260903c3f02f1/pdf/ITCV.pdf"
-              className="mr-3 px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-red-700 rounded-full px-5 py-2">
-                Download IT CV
+          <span className="block bg-[#121212] hover:bg-red-700 rounded-full px-5 py-2">
+                Download CV
               </span>
-            </Link>
-            <Link
-              href="https://raw.githubusercontent.com/mrHeinrichh/Portfolio-cdn/0df7c05f0d803977c7b90242eb4260903c3f02f1/pdf/MultiMediaCV.pdf"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 to-red-600 hover:bg-red-700 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-red-700 rounded-full px-5 py-2">
-                Download MultiMedia CV
-              </span>
-            </Link>
+            </button>
           </div>
-
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -81,10 +124,12 @@ const HeroSection = () => {
               width={300}
               height={300}
             />
-
           </div>
         </motion.div>
       </div>
+
+      {/* Modal */}
+      <Modal isOpen={isModalOpen} onClose={closeModal} />
     </section>
   );
 };

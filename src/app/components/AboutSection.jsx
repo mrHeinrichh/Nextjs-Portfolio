@@ -18,6 +18,7 @@ const TAB_DATA = [
         <li>NextJS</li>
         <li>Flutter</li>
         <li>React Native</li>
+        <li>& Looking forward to exploring more!</li>
       </ul>
     ),
   },
@@ -32,6 +33,7 @@ const TAB_DATA = [
         <li>Nodejs</li>
         <li>C#</li>
         <li>Python</li>
+        <li>& Looking forward to exploring more!</li>
       </ul>
     ),
   },
@@ -46,6 +48,7 @@ const TAB_DATA = [
         <li>Paw</li>
         <li>Restlet Studio</li>
         <li>SoapUI</li>
+        <li>& Looking forward to exploring more!</li>
       </ul>
     ),
   },
@@ -55,8 +58,14 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>MySQL</li>
+        <li>PostgreSQL</li>
         <li>Sqlite</li>
+        <li>CockroachDB</li>
+        <li>MariaDB</li>
+        <li>MsAccess</li>
         <li>MongoDB</li>
+        <li>Firebase</li>
+        <li>& Looking forward to exploring more!</li>
       </ul>
     ),
   },
@@ -76,6 +85,7 @@ const TAB_DATA = [
         <li>Final Cut Pro</li>
         <li>DaVinci Resolve</li>
         <li>Canva</li>
+        <li>& Looking forward to exploring more!</li>
       </ul>
     ),
   },
@@ -92,6 +102,7 @@ const TAB_DATA = [
         <li>Google Sheets</li>
         <li>Google Slides</li>
         <li>Canva</li>
+        <li>& Looking forward to exploring more!</li>
       </ul>
     ),
   },
@@ -110,7 +121,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <Image src="/about_photo.jpg" width={500} height={500} alt="John Heinrich Fabros" />
+      <Image src="/about_photo1.jpg" width={500} height={500} alt="John Heinrich Fabros" />
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>

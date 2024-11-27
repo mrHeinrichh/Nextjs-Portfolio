@@ -8,20 +8,30 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "#about",  // Section to scroll to
   },
   {
     title: "Projects",
-    path: "#projects",
+    path: "#projects",  // Section to scroll to
   },
   {
     title: "Contact",
-    path: "#contact",
+    path: "#contact",  // Section to scroll to
   },
 ];
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const handleScroll = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
@@ -53,7 +63,13 @@ const Navbar = () => {
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                {/* Handle smooth scroll for each link */}
+                <button
+                  onClick={() => handleScroll(link.path.substring(1))}
+                  className="text-white text-lg font-semibold hover:text-red-500"
+                >
+                  {link.title}
+                </button>
               </li>
             ))}
           </ul>
