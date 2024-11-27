@@ -84,10 +84,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Taguig City-based creative with a dual passion for Multimedia Arts
-            and Software Engineering. I bring ideas to life visually and build
-            functional applications, blurring the lines between artistry and
-            technical expertise.
+          A creative professional with a dual passion for Multimedia Arts and Software Engineering. I transform ideas into captivating visuals while developing functional applications, seamlessly blending artistic vision with technical expertise..
           </p>
           <div>
           <button
